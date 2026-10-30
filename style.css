@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 16px;
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
+    color: #333344;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8B5CF6;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: #F4A7C5;
+}
+
+nav a {
+    color: #333344;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    background-color: #FFFFFF;
+    padding: 24px;
+    margin: 16px 0;
+    border-left: 5px solid #75B88A;
+}
+
+#hero {
+    background-color: #65A9E8;
+    padding: 24px;
+    margin: 24px 0;
+    border-radius: 12px;
+}
+
+section {
+    margin: 24px 0;
+    padding: 16px;
+    background-color: #FFFFFF;
+    border: 2px solid #75B88A;
+    border-radius: 12px;
+}
+
+.card {
+    background-color: #F4A7C5;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #8B5CF6;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    section {
+        margin: 8px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        max-width: 1200px;
+        margin: 24px auto;
+    }
+}
