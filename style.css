@@ -84,7 +84,7 @@ footer {
     }
 
     section {
-        margin: 24px 0;
+        margin: 8px 0;
     }
 }
 
@@ -92,6 +92,6 @@ footer {
     main {
         grid-template-columns: repeat(3, minmax(0, 1fr));
         max-width: 1200px;
-        margin: 24px auto;
+        margin: 32px auto;
     }
 }
