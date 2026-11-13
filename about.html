@@ -38,7 +38,7 @@
             </a>
           </p>
     
-        <form>
+        <form id="contact-form"novalidate>
             <fieldset>
                 <legend>Contact Information</legend>
     <label for="name">Full Name:</label>
@@ -69,6 +69,12 @@
     <footer>
         <p>Learning, Building, and Growing</p>
     </footer>
-
+<script>
+document.getElementById("contact-form").onsubmit = function(e) {
+    e.preventDefault();
+    document.getElementById("form-error").textContent =
+        this.checkValidity() ? "" : "Please complete all required fields.";
+};
+</script>
 </body>
 </html>
