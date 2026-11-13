@@ -92,6 +92,8 @@ footer {
     main {
         grid-template-columns: repeat(3, minmax(0, 1fr));
         max-width: 1200px;
-        margin: 32px auto;
+        margin: 24px auto;
+        gap: 32px;
     }
+
 }
