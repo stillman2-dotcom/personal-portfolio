@@ -48,7 +48,7 @@ nav a {
 }
 
 section {
-    margin: 24px 0;
+    margin: 8px 0;
     padding: 16px;
     background-color: #FFFFFF;
     border: 2px solid #75B88A;
@@ -84,7 +84,7 @@ footer {
     }
 
     section {
-        margin: 8px 0;
+        margin: 24px 0;
     }
 }
 
